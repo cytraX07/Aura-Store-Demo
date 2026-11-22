@@ -9,6 +9,20 @@ Open the live site in any browser (mobile or desktop):
 
 **👉 https://cytrax07.github.io/Aura-Store-Demo/**
 
+> ⚠️ The link is live as soon as GitHub Pages is enabled (one-time, 30 seconds —
+> see below). It is generated from this branch, so the demo you see here is served
+> straight from this repo.
+
+### Enable the live link (one-time, by repo owner)
+
+The Pages site could not be turned on from the automation token (403 — integration
+lacks Pages permission). Enable it once from the repo UI:
+
+1. https://github.com/cytraX07/Aura-Store-Demo/settings/pages
+2. **Source**: Deploy from a branch
+3. **Branch**: `arena/16c5ae11-aura-store-demo` · **Folder**: `/ (root)`
+4. **Save** — GitHub builds the site in ~1 minute and the client link activates.
+
 It needs no internet connection beyond this link — it is a single self-contained
 `index.html` (inline CSS/JS, images embedded), so the demo works exactly the
 same for the client.
